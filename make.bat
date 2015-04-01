@@ -1,0 +1,1 @@
+picc18 -O -18F452 -ASMLIST -Zg9 tetris.c int.as font.c
