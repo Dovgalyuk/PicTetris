@@ -1,0 +1,204 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 217, 221
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PIC18 Программатор (C) 2003, Довгалюк П. М."
+MENU IDR_MAINMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_MESSAGES,5,110,205,105,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "OSCEN",IDC_OSCEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    5,0,41,8
+    CONTROL         "FOSC2",IDC_FOSC2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    55,0,41,8
+    CONTROL         "FOSC1",IDC_FOSC1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    105,0,41,8
+    CONTROL         "FOSC0",IDC_FOSC0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    155,0,41,8
+    CONTROL         "BORV1",IDC_BORV1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    5,10,41,8
+    CONTROL         "BORV2",IDC_BORV2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    55,10,41,8
+    CONTROL         "BOREN",IDC_BOREN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    105,10,41,8
+    CONTROL         "PWRTE",IDC_PWRTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    155,10,41,8
+    CONTROL         "WDTPS0",IDC_WDTPS0,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,105,20,45,8
+    CONTROL         "WDTPS1",IDC_WDTPS1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,20,45,8
+    CONTROL         "WDTPS2",IDC_WDTPS2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,20,45,8
+    CONTROL         "WDTEN",IDC_WDTEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    155,20,45,8
+    CONTROL         "CCP2MX",IDC_CCP2MX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,155,30,45,8
+    CONTROL         "STVREN",IDC_STVREN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,155,40,45,8
+    CONTROL         "LVP",IDC_LVP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,105,
+                    40,45,8
+    CONTROL         "BKBUG",IDC_BKBUG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    5,40,45,8
+    CONTROL         "CP0",IDC_CP0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,155,
+                    50,45,8
+    CONTROL         "CP1",IDC_CP1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,105,
+                    50,45,8
+    CONTROL         "CP2",IDC_CP2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    50,45,8
+    CONTROL         "CP3",IDC_CP3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,50,
+                    45,8
+    CONTROL         "CPD",IDC_CPD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,60,
+                    45,8
+    CONTROL         "CPB",IDC_CPB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    60,45,8
+    CONTROL         "WRT0",IDC_WRT0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    155,70,45,8
+    CONTROL         "WRT1",IDC_WRT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    105,70,45,8
+    CONTROL         "WRT2",IDC_WRT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    70,45,8
+    CONTROL         "WRT3",IDC_WRT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,
+                    70,45,8
+    CONTROL         "WRTD",IDC_WRTD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,
+                    80,45,8
+    CONTROL         "WRTB",IDC_WRTB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,
+                    80,45,8
+    CONTROL         "WRTC",IDC_WRTC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    105,80,45,8
+    CONTROL         "EBTR0",IDC_EBTR0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    155,90,45,8
+    CONTROL         "EBTR1",IDC_EBTR1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    105,90,45,8
+    CONTROL         "EBTR2",IDC_EBTR2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    55,90,45,8
+    CONTROL         "EBTR3",IDC_EBTR3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    5,90,45,8
+    CONTROL         "EBTRB",IDC_EBTRB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    55,100,45,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        IDM_OPENFILE
+        MENUITEM "Exit",                        IDM_EXIT
+    END
+    POPUP "Save"
+    BEGIN
+        MENUITEM "Program memory",              IDM_SAVEPROGRAM
+        MENUITEM "Data EEPROM",                 IDM_SAVEEEPROM
+    END
+    POPUP "Read"
+    BEGIN
+        MENUITEM "Data EEPROM",                 IDM_READEEPROM
+        MENUITEM "ID",                          IDM_READID
+        MENUITEM "Program memory",              IDM_READPROGRAM
+        MENUITEM "Config words",                IDM_READCONFIG
+        MENUITEM "Device ID",                   IDM_READDEVICEID
+    END
+    POPUP "Write"
+    BEGIN
+        MENUITEM "Program memory",              IDM_WRITEPROGRAM
+        MENUITEM "Data EEPROM",                 IDM_WRITEEEPROM
+        MENUITEM "Config words",                IDM_WRITECONFIG
+    END
+    POPUP "Erase"
+    BEGIN
+        MENUITEM "Program memory",              IDM_ERASEPROGRAM
+    END
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
